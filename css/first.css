@@ -1,0 +1,51 @@
+#main{
+        display: flex;
+        flex-direction: column;
+        /* background-color: red; */
+        padding: 5px;
+
+
+
+}
+
+#main-image{
+    width: 30%;
+
+
+
+}
+
+#block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#buttons{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.btn{
+            margin: 5px;
+            width: 100px;
+            height: 50px;
+            font-size: 30px;
+
+}
+
+
+
+@media only screen and (max-width:770px){
+
+    #main-image{
+        width: 70%;
+    
+    
+    
+    }
+
+
+}
